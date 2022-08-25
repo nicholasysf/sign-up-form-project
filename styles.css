@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.side{
+    display: flex;
+    background: url(/ivan-diaz-j0D2YkhaoN4-unsplash.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    position: relative;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+    gap: 16px;
+}
+
+img{
+    width: 5rem;
+    padding: 10px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(238, 230, 230);
+}
+
+P{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    color: rgb(238, 230, 230);
+    font-size: 0.7rem;
+}
+
+
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
