@@ -27,7 +27,7 @@
             </div>
 
             <div class="middle-info">
-                <p>LETS DO THIS!</p>
+                <p>Apply here!</p>
                 <form action="" class="myForm">
                     <div class="container-1">
                         <div class="box-one">
@@ -42,23 +42,23 @@
 
                     <div class="container-2">
                         <div class="box-three">
-                            <label for="myEmail">EMAIL</label>
-                            <input type="text" id="myEmail">
+                            <label for="myEmail">*EMAIL</label>
+                            <input type="email" id="myEmail" required>
                         </div>
                         <div class="box-four">
-                            <label for="hpNum">PHONE NUMBER</label>
-                            <input type="text" id="hpNum">
+                            <label for="hpNum">*PHONE NUMBER</label>
+                            <input type="tel" id="hpNum" required>
                         </div>
                     </div>
 
                     <div class="container-3">
                         <div class="box-five">
-                            <label for="myPass">PASSWORD</label>
-                            <input type="text" id="myPass">
+                            <label for="myPass">*PASSWORD</label>
+                            <input type="password" id="myPass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
                         </div>
                         <div class="box-six">
-                            <label for="myPassTwo">CONFIRM PASSWORD</label>
-                            <input type="text" id="myPassTwo">
+                            <label for="myPassTwo">*CONFIRM PASSWORD</label>
+                            <input type="password" id="myPassTwo" required>
                         </div>
                      </div>
                     
@@ -66,7 +66,12 @@
 
             </div>
 
-            <div class="bottom-info">Some words 3 </div>
+            <div class="bottom-info"> 
+                <div id="container-4">
+                    <button type="submit" class="submit-btn">CREATE ACCOUNT</button>
+                    <p>Already have an account? <a href="">LOG IN</a> </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
